@@ -12,6 +12,7 @@ class MainTabViewController: NSTabViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        self.selectedTabViewItemIndex = 0
     }
     
 }

@@ -121,6 +121,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // If we got here, it is time to quit.
         return .terminateNow
     }
-
+    // --- ドックアイコンがクリックされた時に呼ばれる関数 ---
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+            
+        // もし可視ウィンドウが一つもなければ (flag == false)
+        if !flag {
+            
+            // Storyboardから、ID "MainWindowController" を持つウィンドウを探す
+            let storyboard = NSStoryboard(name: "Main", bundle: nil)
+            if let windowController = storyboard.instantiateController(withIdentifier: "MainWindowController") as? NSWindowController {
+                    
+                // 見つけたら、そのウィンドウを表示する
+                windowController.showWindow(nil)
+            }
+        }
+        
+        return true
+    }
 }
-
