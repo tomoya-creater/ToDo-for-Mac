@@ -210,4 +210,39 @@ class HistoryViewController: NSViewController, NSTableViewDelegate, NSTableViewD
         // 5. ウィンドウを表示する
         windowController.showWindow(nil)
     }
+    // 「編集」ボタンが押された時のアクション
+    @IBAction func editButtonTapped(_ sender: Any) {
+            
+        let selectedRow = tableView.selectedRow
+        guard selectedRow >= 0 else {
+            print("編集する行が選択されていません")
+            return
+        }
+        let itemToEdit = todoItems[selectedRow]
+            
+        // 1. Storyboardから「編集ウィンドウ」をIDで探す
+        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+        guard let windowController = storyboard.instantiateController(withIdentifier: "EditWindowController") as? NSWindowController else {
+            print("エラー: EditWindowController が見つかりません")
+            return
+        }
+            
+        // 2. ウィンドウをロード
+        _ = windowController.window
+
+        // 3. ウィンドウの中身（＝EditTabViewController）を取得
+        if let editTabVC = windowController.contentViewController as? EditTabViewController { // ⬅️ ここを修正
+                
+            // 4. TabViewControllerに「編集するアイテム」と「コンテキスト」を渡す
+            editTabVC.itemToEdit = itemToEdit
+            editTabVC.context = self.context // 自分のコンテキストを渡す
+            editTabVC.passDataToChildren() // 子タブにデータを反映させる
+                
+        } else {
+            print("エラー: EditTabViewController が見つかりません") // ⬅️ ここを修正
+        }
+            
+        // 5. 編集ウィンドウを表示
+        windowController.showWindow(nil)
+    }
 }
