@@ -1163,8 +1163,8 @@ DQ
                                                 <rect key="frame" x="335" y="2" width="98" height="26"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="f6h-ZS-hR7">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="783827075.78993297">
-                                                        <!--2025-11-03 01:44:35 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="783830990.98702705">
+                                                        <!--2025-11-03 02:49:50 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1622,8 +1622,8 @@ DQ
                                                 <rect key="frame" x="71" y="0.0" width="98" height="26"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="GTd-B6-miN">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="783827075.81401598">
-                                                        <!--2025-11-03 01:44:35 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="783830991.00533199">
+                                                        <!--2025-11-03 02:49:51 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
