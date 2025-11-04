@@ -1153,7 +1153,7 @@ DQ
                                         </textFieldCell>
                                     </textField>
                                     <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="13" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zrt-kK-Egf">
-                                        <rect key="frame" x="10" y="298" width="486" height="24"/>
+                                        <rect key="frame" x="10" y="298" width="485" height="24"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LOM-ni-Yrk">
                                                 <rect key="frame" x="0.0" y="0.0" width="322" height="24"/>
@@ -1167,15 +1167,15 @@ DQ
                                                 <rect key="frame" x="335" y="2" width="98" height="26"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="f6h-ZS-hR7">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="783877168.81652701">
-                                                        <!--2025-11-03 15:39:28 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="783927326.03644001">
+                                                        <!--2025-11-04 05:35:26 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 </datePickerCell>
                                             </datePicker>
                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="i9O-aa-Wgk">
-                                                <rect key="frame" x="443" y="0.0" width="43" height="24"/>
+                                                <rect key="frame" x="443" y="0.0" width="42" height="24"/>
                                                 <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BQw-ci-pqf">
                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="system"/>
@@ -1371,7 +1371,7 @@ DQ
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Myb-O3-xXF">
-                                <rect key="frame" x="357" y="10" width="73" height="24"/>
+                                <rect key="frame" x="358" y="10" width="72" height="24"/>
                                 <buttonCell key="cell" type="push" title="詳細表示" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bd7-1S-HWE">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1382,7 +1382,7 @@ DQ
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ftl-Hd-O7T">
-                                <rect key="frame" x="297" y="10" width="49" height="24"/>
+                                <rect key="frame" x="297" y="10" width="48" height="24"/>
                                 <buttonCell key="cell" type="push" title="編集" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="65e-Mj-ZMt">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1605,8 +1605,8 @@ DQ
                                                 <rect key="frame" x="335" y="2" width="98" height="26"/>
                                                 <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="mBh-uu-d4b">
                                                     <font key="font" metaFont="system"/>
-                                                    <date key="date" timeIntervalSinceReferenceDate="783878036.68030596">
-                                                        <!--2025-11-03 15:53:56 +0000-->
+                                                    <date key="date" timeIntervalSinceReferenceDate="783927326.05148304">
+                                                        <!--2025-11-04 05:35:26 +0000-->
                                                     </date>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1937,7 +1937,7 @@ DQ
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wUy-Vk-5si">
-                                <rect key="frame" x="357" y="10" width="73" height="24"/>
+                                <rect key="frame" x="358" y="10" width="72" height="24"/>
                                 <buttonCell key="cell" type="push" title="詳細表示" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="sl6-If-Qu7">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1948,7 +1948,7 @@ DQ
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rf7-r3-Efd">
-                                <rect key="frame" x="297" y="10" width="49" height="24"/>
+                                <rect key="frame" x="297" y="10" width="48" height="24"/>
                                 <buttonCell key="cell" type="push" title="編集" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="DhO-tY-iz8">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1981,12 +1981,12 @@ DQ
         </scene>
     </scenes>
     <resources>
-        <image name="NSTouchBarGetInfoTemplate" width="19" height="19"/>
-        <image name="calendar" catalog="system" width="17" height="14"/>
+        <image name="NSTouchBarGetInfoTemplate" width="20" height="20"/>
+        <image name="calendar" catalog="system" width="16" height="14"/>
         <image name="gear" catalog="system" width="17" height="16"/>
-        <image name="list.bullet" catalog="system" width="17" height="12"/>
-        <image name="pencil" catalog="system" width="13" height="13"/>
-        <image name="plus" catalog="system" width="15" height="13"/>
+        <image name="list.bullet" catalog="system" width="16" height="12"/>
+        <image name="pencil" catalog="system" width="14" height="13"/>
+        <image name="plus" catalog="system" width="14" height="13"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
